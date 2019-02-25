@@ -5,4 +5,4 @@ This repository contains solutions to [exercises](https://spinningup.openai.com/
 Plans for the future:
 
 + Implementation of popular Reinforcement Learning algorithms
-+ Requests for Research implementations
++ Implementation of OpenAI Requests for Research 
