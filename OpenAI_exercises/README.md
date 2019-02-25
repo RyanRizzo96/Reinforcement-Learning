@@ -13,11 +13,11 @@ There are two key computations which are especially important for training stoch
 + sampling actions from the policy,
 + computing log likelihoods of particular actions
 
----
+
 
 We are tasked with creating a TensorFlow symbol for computing the log-likelihoods of a batch of diagonal Gaussian distributions.
 
-#### What is a Diagonal Gaussian Distribution?
+### What is a Diagonal Gaussian Distribution?
 
 A Gaussian distribution or a normal distribution is a continuous probability distribution.
 
@@ -30,7 +30,7 @@ A multivariate Gaussian distribution is described by
 
 A diagonal Gaussian distribution is a special case where the covariance matrix only has entries on the diagonal. This can be represented by a vector. 
 
-#### What is the log-likelihood?
+### What is the log-likelihood?
 
 First of all, we compute the log standard deviations instead of standard deviations as log stds are easier to work with since they are free to take on any values between negative infinity and positive infinity.
 
@@ -38,7 +38,6 @@ The natural logarithm of the likelihood function is called the log-likelihood. S
 
 Therefore the log-likelihood can be used in place of the likelihood in maximum likelihood estimation.
 
----
 
 ### Solution 
 
@@ -46,3 +45,4 @@ To compute the log-likelihoods we use the following equation:
 
 ![alt-text](https://spinningup.openai.com/en/latest/_images/math/003c0eae9ef9660bf067815175ddd51b487c5191.svg)
 
+---
