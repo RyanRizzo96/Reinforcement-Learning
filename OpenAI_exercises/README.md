@@ -44,4 +44,5 @@ Therefore the log-likelihood can be used in place of the likelihood in maximum l
 
 To compute the log-likelihoods we use the following equation:
 
-![alt-text]
+![alt-text](https://spinningup.openai.com/en/latest/_images/math/003c0eae9ef9660bf067815175ddd51b487c5191.svg)
+
