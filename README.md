@@ -35,7 +35,7 @@ Plans for the future:
  - [Spinning Up in Deep RL](https://openai.com/blog/spinning-up-in-deep-rl/)
  - [Key Papers in Deep RL](https://spinningup.openai.com/en/latest/spinningup/keypapers.html)
  - [Reinforcement Learning in Robotics: Applications and Real-World Challenges](https://www.mdpi.com/2218-6581/2/3/122/htm)
- -
+ 
  
 
 **Other**
